@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #005eaa;
+}
+
+header,
+nav,
+section,
+footer {
+    margin: 20px;
+    padding: 20px;
+    background-color: #b6e1fc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main-content {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.custom-link {
+    text-decoration: none;
+    background-color: #1022c7;
+    /* Цвет фона для выбранной ссылки */
+    color: #ffffff;
+    /* Цвет текста для выбранной ссылки */
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-weight: bold;
+    /* Жирный текст для выбранной ссылки */
+    transition: background-color 0.3s ease;
+    /* Анимация изменения цвета фона */
+}
+
+.custom-link:hover {
+    background-color: #2980b9;
+    /* Новый цвет фона при наведении на выбранную ссылку */
+}
